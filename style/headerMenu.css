@@ -1,0 +1,33 @@
+header {
+    background-color: #F4F4F4;
+}
+
+.nav-contents {
+    color: #48433D;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image img {
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    object-position:100% 65%;
+}
+
+.header-image h1 {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+
+    font-size: 36px;
+
+    color: white;
+}

@@ -1,0 +1,196 @@
+html {
+    font-size: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0;
+    padding-top: 40px;
+    background-color: #000;
+    color: #fff;
+
+
+}
+
+.Footer-width{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.menu-bar {
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.Logo {
+    width: 337px;
+}
+
+.menu-bar nav ul {
+    display: flex;
+    margin-top: 46px;
+    margin-bottom: 15px;
+}
+
+.menu-bar nav ul li {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+
+
+.backgroundVideo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.FooterMenu {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.FooterLogo{
+    float: left;
+}
+
+.FooterLogo img{
+    width: 183px;
+}
+
+.FooterContents ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+.footer-ul li {
+    margin-bottom: 10px;
+}
+
+.FooterContents ul li a {
+    color: white;
+}
+
+.SNS-logo{
+    text-align: right;
+}
+
+.SNS-logo img{
+    width: 40px;
+    height: 40px;
+
+    margin-left: 40px;
+    
+}
+
+.FooterContents a {
+    color: white;
+}
+
+.FooterMenu {
+    display: flex;
+}
+
+.FooterContents {
+    width: 200px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    vertical-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #D0112B;
+    color: white;
+    transition: 0.3s;
+}
+
+.Button:hover {
+    color: white;
+    background: #FFC5C6;
+
+}
+
